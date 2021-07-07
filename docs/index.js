@@ -136,7 +136,7 @@ window.onload = () => {
       const out = f.createComplexArray();
 
       for (let i = 0; i < readings.length; i++) {
-        input[i] = readings[i].y;
+        input[i] = readings[i].z;
       }
 
       console.log("Started Frequency Analysis");
